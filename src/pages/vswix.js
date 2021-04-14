@@ -28,7 +28,7 @@ export default (() => {
 			lg-padding="60px 0 80px 0"
 			md-padding="40px 0 60px 0"
 			min-height="100vh"
-			background="url(https://uploads.quarkly.io/607631c192d19d001eee63e8/images/5.png?v=2021-04-14T22:28:20.851Z) 0% 0%/cover no-repeat,rgba(0, 0, 0, 0) linear-gradient(0deg, rgb(14, 19, 23) 0%, rgb(34, 38, 46) 100%) 0% 0% /auto repeat scroll padding-box"
+			background="url(https://uploads.quarkly.io/607631c192d19d001eee63e8/images/5.png?v=2021-04-14T22:28:20.851Z) 0% 0%/cover no-repeat,radial-gradient(circle at center,rgba(0,0,0,0) 0%,rgb(14, 19, 23) 70%),url(https://uploads.quarkly.io/607631c192d19d001eee63e8/images/3.jpg?v=2021-04-14T23:20:59.785Z) 0% 0%/cover,rgba(0, 0, 0, 0) linear-gradient(0deg, rgb(14, 19, 23) 0%, rgb(34, 38, 46) 100%) 0% 0% /auto repeat scroll padding-box"
 		>
 			<Override
 				slot="SectionContent"
@@ -122,7 +122,7 @@ export default (() => {
 				<StackItem width="50%" display="flex">
 					<Override slot="StackItemContent" align-items="center" />
 					{"        "}
-					<Image src="https://uploads.quarkly.io/607631c192d19d001eee63e8/images/4.png?v=2021-04-14T00:45:42.680Z" filter="drop-shadow(0 0 3px rgba(100,0,0,0.5))" />
+					<Image src="https://uploads.quarkly.io/607631c192d19d001eee63e8/images/4.png?v=2021-04-14T00:45:42.680Z" filter="drop-shadow(12px 3px 8px rgba(0,0,0,0.7))" />
 					{"   "}
 				</StackItem>
 				<StackItem width="50%" display="flex">
